@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ultimatefitnessapp.BFPActivitymen"
+    android:weightSum="1">
+
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/fitness1"
+      android:layout_gravity="top"
+      />
+
+    <TextView
+        android:id="@+id/tWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello User!"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        android:id="@+id/radioButtonfemale"
+        android:checked="false"
+        android:textColor="#000"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onRadioButtonClicked"/>
+
+    <TextView
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:text="Choose Gender"
+        android:id="@+id/textView"
+        android:textColor="#000"
+        android:layout_weight="0.05"
+        android:textSize="17dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <RadioButton
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:id="@+id/radioButtonmale"
+        android:layout_gravity="center_horizontal"
+        android:checked="false"
+        android:textColor="#000"
+        android:onClick="onRadioButtonClicked"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+<!-- From: file:/Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/res/layout/activity_bfp.xml -->
