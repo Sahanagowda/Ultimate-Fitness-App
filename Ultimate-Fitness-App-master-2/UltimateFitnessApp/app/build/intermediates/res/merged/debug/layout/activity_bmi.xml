@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ultimatefitnessapp.BMIActivity" >
+
+    <ImageView
+        android:id="@+id/test_image"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/bmichart" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Your Body Mass Index is : "
+        android:id="@+id/tBMI"
+        android:layout_gravity="left|top" />
+
+    <TextView
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/bmiResult"
+        android:layout_gravity="right|top" />
+
+</FrameLayout>
+<!-- From: file:/Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/res/layout/activity_bmi.xml -->
