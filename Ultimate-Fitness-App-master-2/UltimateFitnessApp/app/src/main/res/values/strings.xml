@@ -12,5 +12,8 @@
     <string name="title_activity_bfpoutput">BFPOutputActivity</string>
     <string name="title_activity_bmr">BMRActivity</string>
     <string name="title_activity_bmrform">BMRFormActivity</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_login">Login</string>
 
 </resources>

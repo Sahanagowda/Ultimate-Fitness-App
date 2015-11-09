@@ -16,7 +16,10 @@
     <string name="title_activity_bmr">BMRActivity</string>
     <string name="title_activity_bmrform">BMRFormActivity</string>
     <string name="title_activity_form">FormActivity</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_option">OptionActivity</string>
+    <string name="title_activity_register">Register</string>
     <!-- From: file:/Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">

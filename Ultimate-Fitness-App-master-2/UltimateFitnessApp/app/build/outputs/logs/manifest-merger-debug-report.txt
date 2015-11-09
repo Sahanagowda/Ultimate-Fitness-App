@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/AndroidManifest.xml:2:1-88:12
+ADDED from /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/AndroidManifest.xml:2:1-100:12
 	package
 		ADDED from /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/AndroidManifest.xml:3:5-45
 		INJECTED from /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/AndroidManifest.xml
@@ -41,7 +41,7 @@ ADDED from /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitness
 	android:name
 		ADDED from /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/AndroidManifest.xml:15:30-85
 application
-ADDED from /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/AndroidManifest.xml:17:5-86:19
+ADDED from /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/AndroidManifest.xml:17:5-98:19
 MERGED from [com.android.support:support-v4:23.0.1] /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/AndroidManifest.xml:20:9-41
@@ -149,3 +149,21 @@ ADDED from /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitness
 		ADDED from /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/AndroidManifest.xml:84:13-59
 	android:name
 		ADDED from /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/AndroidManifest.xml:83:13-44
+activity#com.example.ultimatefitnessapp.Register
+ADDED from /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/AndroidManifest.xml:86:9-89:20
+	android:label
+		ADDED from /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/AndroidManifest.xml:88:13-60
+	android:name
+		ADDED from /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/AndroidManifest.xml:87:13-37
+activity#com.example.ultimatefitnessapp.MainActivity
+ADDED from /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/AndroidManifest.xml:90:9-93:20
+	android:label
+		ADDED from /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/AndroidManifest.xml:92:13-56
+	android:name
+		ADDED from /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/AndroidManifest.xml:91:13-41
+activity#com.example.ultimatefitnessapp.Login
+ADDED from /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/AndroidManifest.xml:94:9-97:20
+	android:label
+		ADDED from /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/AndroidManifest.xml:96:13-57
+	android:name
+		ADDED from /Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/AndroidManifest.xml:95:13-34

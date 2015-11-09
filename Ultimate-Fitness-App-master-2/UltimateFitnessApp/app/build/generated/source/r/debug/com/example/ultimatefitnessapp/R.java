@@ -28,12 +28,12 @@ public final class R {
     }
     public static final class id {
         public static final int BFPbutton=0x7f080015;
-        public static final int action_settings=0x7f080032;
-        public static final int bBMI=0x7f08002f;
+        public static final int action_settings=0x7f080044;
+        public static final int bBMI=0x7f080034;
         public static final int bBMIweb=0x7f08001c;
-        public static final int bBMR=0x7f080031;
+        public static final int bBMR=0x7f080036;
         public static final int bBMRweb=0x7f080023;
-        public static final int bBodyFat=0x7f080030;
+        public static final int bBodyFat=0x7f080035;
         public static final int bSubmit=0x7f08002d;
         public static final int bcalBMI=0x7f080020;
         public static final int bcalBMR=0x7f080029;
@@ -41,6 +41,8 @@ public final class R {
         public static final int bmr=0x7f080021;
         public static final int bmrResult=0x7f080024;
         public static final int bmrform=0x7f080026;
+        public static final int btnLogin=0x7f080031;
+        public static final int btnRegister=0x7f080043;
         public static final int calculatebfp=0x7f080008;
         public static final int eAge=0x7f080028;
         public static final int eForearmCircumference=0x7f08000a;
@@ -51,10 +53,19 @@ public final class R {
         public static final int eWaistCircumference=0x7f080005;
         public static final int eWeight=0x7f080007;
         public static final int eWristCircumference=0x7f08000c;
+        public static final int editTextAge=0x7f08003a;
+        public static final int editTextConfirmPassword=0x7f080042;
+        public static final int editTextName=0x7f080038;
+        public static final int editTextPassword1=0x7f080030;
+        public static final int editTextPassword2=0x7f080040;
+        public static final int editTextSex=0x7f08003c;
+        public static final int editTextUsername=0x7f08002e;
+        public static final int editTextWeight=0x7f08003e;
         public static final int imageView=0x7f08000f;
         public static final int linearLayout=0x7f080010;
         public static final int radioButtonfemale=0x7f080001;
         public static final int radioButtonmale=0x7f080003;
+        public static final int signup=0x7f080032;
         public static final int tAge=0x7f080027;
         public static final int tBMI=0x7f080017;
         public static final int tBMR=0x7f080022;
@@ -64,7 +75,7 @@ public final class R {
         public static final int tForearmCircumference=0x7f080009;
         public static final int tHeight=0x7f08001e;
         public static final int tHipCircumference=0x7f08000d;
-        public static final int tService=0x7f08002e;
+        public static final int tService=0x7f080033;
         public static final int tSex=0x7f08001d;
         public static final int tStatb=0x7f08001a;
         public static final int tStatbmi=0x7f080019;
@@ -77,6 +88,13 @@ public final class R {
         public static final int tcpd=0x7f080025;
         public static final int test_image=0x7f080016;
         public static final int textView=0x7f080002;
+        public static final int textView2=0x7f08002f;
+        public static final int textView3=0x7f080037;
+        public static final int textView4=0x7f080039;
+        public static final int textView5=0x7f08003b;
+        public static final int textView6=0x7f08003d;
+        public static final int textView7=0x7f08003f;
+        public static final int textView8=0x7f080041;
         public static final int tstatbfp=0x7f080014;
     }
     public static final class layout {
@@ -89,8 +107,11 @@ public final class R {
         public static final int activity_bmr=0x7f030006;
         public static final int activity_bmrform=0x7f030007;
         public static final int activity_form=0x7f030008;
-        public static final int activity_option=0x7f030009;
-        public static final int activity_welcome=0x7f03000a;
+        public static final int activity_login=0x7f030009;
+        public static final int activity_main=0x7f03000a;
+        public static final int activity_option=0x7f03000b;
+        public static final int activity_register=0x7f03000c;
+        public static final int activity_welcome=0x7f03000d;
     }
     public static final class menu {
         public static final int bf=0x7f070000;
@@ -101,8 +122,11 @@ public final class R {
         public static final int menu_bmiform=0x7f070005;
         public static final int menu_bmr=0x7f070006;
         public static final int menu_bmrform=0x7f070007;
-        public static final int option=0x7f070008;
-        public static final int welcome=0x7f070009;
+        public static final int menu_login=0x7f070008;
+        public static final int menu_main=0x7f070009;
+        public static final int menu_register=0x7f07000a;
+        public static final int option=0x7f07000b;
+        public static final int welcome=0x7f07000c;
     }
     public static final class string {
         public static final int action_settings=0x7f060000;
@@ -115,7 +139,10 @@ public final class R {
         public static final int title_activity_bmr=0x7f060007;
         public static final int title_activity_bmrform=0x7f060008;
         public static final int title_activity_form=0x7f060009;
-        public static final int title_activity_option=0x7f06000a;
+        public static final int title_activity_login=0x7f06000a;
+        public static final int title_activity_main=0x7f06000b;
+        public static final int title_activity_option=0x7f06000c;
+        public static final int title_activity_register=0x7f06000d;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
