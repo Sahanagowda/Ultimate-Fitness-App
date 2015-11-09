@@ -71,6 +71,18 @@
             android:name="com.example.ultimatefitnessapp.BMIFormActivity"
             android:label="@string/title_activity_bmiform" >
         </activity>
+        <activity
+            android:name="com.example.ultimatefitnessapp.BFPOutputActivity"
+            android:label="@string/title_activity_bfpoutput" >
+        </activity>
+        <activity
+            android:name="com.example.ultimatefitnessapp.BMRActivity"
+            android:label="@string/title_activity_bmr" >
+        </activity>
+        <activity
+            android:name="com.example.ultimatefitnessapp.BMRFormActivity"
+            android:label="@string/title_activity_bmrform" >
+        </activity>
     </application>
 
 </manifest>

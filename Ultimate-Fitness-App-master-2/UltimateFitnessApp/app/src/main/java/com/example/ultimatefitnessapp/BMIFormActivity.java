@@ -8,8 +8,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
 
 public class BMIFormActivity extends Activity {
 
@@ -35,11 +33,20 @@ public class BMIFormActivity extends Activity {
                 int weight = Integer.parseInt(weightS);
                 String bmiStat = "";
                 double bmi = (weight/2.20462)/((height/100)^2);
-                TextView outbmi = (TextView) findViewById(R.id.bmiResult);
+
 
                 String tBmi = String.valueOf(bmi);
-                Toast.makeText(getApplicationContext(), String.valueOf(bmi),
-                        Toast.LENGTH_LONG).show();
+                // Toast.makeText(getApplicationContext(), String.valueOf(bmi),
+                //     Toast.LENGTH_LONG).show();
+
+                //Create the bundle
+                Bundle bundle = new Bundle();
+
+                //Add your data to bundle
+                bundle.putString("Trans", tBmi);
+
+
+
                 /*
                 if(bmi<18.5)
                 {
@@ -62,10 +69,13 @@ public class BMIFormActivity extends Activity {
                     bmiStat = "Under Weight";
                 }
 
-
+                */
                 Intent intent = new Intent(BMIFormActivity.this, BMIActivity.class);
 
-                startActivity(intent); */
+                //Add the bundle to the intent
+                intent.putExtras(bundle);
+
+                startActivity(intent);
             }
         });
     }

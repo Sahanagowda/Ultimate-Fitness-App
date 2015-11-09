@@ -63,15 +63,25 @@
             android:name=".BFPActivity"
             android:label="BFPActivity" >
         </activity>
-
         <activity
             android:name=".BFPActivitywomen"
             android:label="BFPActivitywomen" >
         </activity>
-
         <activity
             android:name=".BMIFormActivity"
             android:label="@string/title_activity_bmiform" >
+        </activity>
+        <activity
+            android:name=".BFPOutputActivity"
+            android:label="@string/title_activity_bfpoutput" >
+        </activity>
+        <activity
+            android:name=".BMRActivity"
+            android:label="@string/title_activity_bmr" >
+        </activity>
+        <activity
+            android:name=".BMRFormActivity"
+            android:label="@string/title_activity_bmrform" >
         </activity>
     </application>
 

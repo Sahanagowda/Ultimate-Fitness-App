@@ -1,6 +1,7 @@
 package com.example.ultimatefitnessapp;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -71,7 +72,23 @@ public class BFPActivitywomen extends Activity {
                     double bodyfatweight = weight - leanbodymass;
                     double bodyfatpercentage = (bodyfatweight * 100) / weight;
                     Log.v("qqq", "gjh");
-                    Toast.makeText(BFPActivitywomen.this, "Body Fat Percentage : " + bodyfatpercentage + "%", Toast.LENGTH_SHORT).show();
+
+
+                    String Outputbodyfatpercentage = String.valueOf(bodyfatpercentage);
+
+                    //Create the bundle
+                    Bundle bundle = new Bundle();
+
+                    //Add your data to bundle
+                    bundle.putString("Trans", Outputbodyfatpercentage);
+
+
+                    Intent intent = new Intent(BFPActivitywomen.this, BFPOutputActivity.class);
+                    intent.putExtras(bundle);
+                    startActivity(intent);
+
+
+                  //  Toast.makeText(BFPActivitywomen.this, "Body Fat Percentage : " + bodyfatpercentage + "%", Toast.LENGTH_SHORT).show();
                 }
 
             }

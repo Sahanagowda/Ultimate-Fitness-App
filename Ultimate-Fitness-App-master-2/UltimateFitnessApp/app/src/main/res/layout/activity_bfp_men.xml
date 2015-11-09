@@ -19,7 +19,6 @@
         android:paddingTop="16dp"
         />
 
-
     <TextView
         android:id="@+id/tWelcome"
         android:layout_width="wrap_content"
@@ -54,7 +53,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="in cm"
+            android:hint="in inches"
             android:inputType="number"
             android:textColor="#000" />
 

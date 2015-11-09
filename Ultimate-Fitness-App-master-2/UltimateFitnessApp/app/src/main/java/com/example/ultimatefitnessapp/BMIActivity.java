@@ -2,22 +2,77 @@ package com.example.ultimatefitnessapp;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.EditText;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
+
+import java.text.DecimalFormat;
 
 public class BMIActivity extends Activity {
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_bmi);
 
-		//Reading the value from the form
+		@Override
+		protected void onCreate(Bundle savedInstanceState) {
+			super.onCreate(savedInstanceState);
+			setContentView(R.layout.activity_bmi);
 
-	}
+			//Get the bundle
+			Bundle bundle = getIntent().getExtras();
+
+			//Extract the data…
+			String data = bundle.getString("Trans");
+			double bmi = Double.parseDouble(data);
+			//truncating
+			bmi = roundTwoDecimals(bmi);
+			data = String.valueOf(bmi);
+			String bmiStat = "";
+			TextView outbmi = (TextView) findViewById(R.id.bmiResult);
+			TextView statbmi = (TextView)findViewById(R.id.tStatb);
+			if(bmi<18.5)
+			{
+				outbmi.setText(data);
+				bmiStat = "UnderWeight";
+				statbmi.setText(bmiStat);
+
+			}
+			else if (bmi<24.9)
+			{
+				outbmi.setText(data);
+				bmiStat = "Healthy";
+				statbmi.setText(bmiStat);
+			}
+			else if (bmi<29.9)
+			{
+				outbmi.setText(data);
+				bmiStat = "OverWeight";
+				statbmi.setText(bmiStat);
+			}
+			else
+			{
+				outbmi.setText(data);
+				bmiStat = "Obese";
+				statbmi.setText(bmiStat);
+			}
+
+			Button bmiWeb = (Button) findViewById(R.id.bBMIweb);
+			bmiWeb.setOnClickListener(new View.OnClickListener() {
+				@Override
+				public void onClick(View v) {
+
+					Uri uri = Uri.parse("http://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/"); // missing 'http://' will cause crashed
+					Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+					startActivity(intent);
+
+				}
+			});
+
+
+		}
+
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -36,5 +91,10 @@ public class BMIActivity extends Activity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+
+	public double roundTwoDecimals(double d) {
+		DecimalFormat twoDForm = new DecimalFormat("#.##");
+		return Double.valueOf(twoDForm.format(d));
 	}
 }

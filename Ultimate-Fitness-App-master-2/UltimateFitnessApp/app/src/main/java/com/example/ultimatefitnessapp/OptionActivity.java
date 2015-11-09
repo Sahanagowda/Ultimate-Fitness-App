@@ -45,6 +45,26 @@ public class OptionActivity extends Activity {
 				startActivity(intent);
 			}
 		});
+
+
+
+		Button bMR = (Button) findViewById(R.id.bBMR);
+		Log.v("qqq", "gjh");
+		bMR.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			//this will have all the things that the button Compute will do on click
+			public void onClick(View v) {
+				Log.v("qqq", "gjh");
+				// TODO Auto-generated method stub
+				//go to aws option page
+				Log.v("qqq", "gjh");
+				Intent intent = new Intent(OptionActivity.this, BMRFormActivity.class);
+				startActivity(intent);
+			}
+		});
+
+
 	}
 
 

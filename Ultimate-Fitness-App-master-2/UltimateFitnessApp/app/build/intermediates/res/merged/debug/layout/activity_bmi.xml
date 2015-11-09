@@ -6,7 +6,9 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.ultimatefitnessapp.BMIActivity" >
+    android:background="#555"
+    tools:context="com.example.ultimatefitnessapp.BMIActivity"
+    >
 
     <ImageView
         android:id="@+id/test_image"
@@ -18,17 +20,60 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#FFF"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Your Body Mass Index is : "
+        android:text="Your BMI is : "
         android:id="@+id/tBMI"
         android:layout_gravity="left|top" />
 
     <TextView
         android:layout_width="133dp"
+        android:textColor="#FFF"
+        android:layout_marginLeft="0dp"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:id="@+id/bmiResult"
         android:layout_gravity="right|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="30dp"
+        android:text="Your BMI Stat is : "
+        android:id="@+id/tStatbmi"
+        android:layout_gravity="left|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tStatb"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_horizontal|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="italic"
+        android:text="Click on the button to know more about Body Mass Index"
+        android:textColor="#FFF"
+        android:layout_marginTop="70dp"
+        android:id="@+id/tBmiWeb"
+        android:layout_gravity="left|top" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Body Mass Index"
+        android:background="#CCC"
+        android:layout_marginTop="130dp"
+        android:id="@+id/bBMIweb"
+        android:layout_gravity="center_horizontal|top" />
 
 </FrameLayout>
 <!-- From: file:/Users/sahana/Downloads/Ultimate-Fitness-App-master-2/UltimateFitnessApp/app/src/main/res/layout/activity_bmi.xml -->
